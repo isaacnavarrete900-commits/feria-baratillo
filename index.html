@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria El Baratillo - Interactiva</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <canvas id="logoCanvas" width="400" height="80"></canvas>
+        <p class="subtitulo">
+            ¡Los mejores productos a precios de feria!
+        </p>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="contenedor">
+
+        <!-- Productos -->
+        <section class="productos">
+
+            <!-- Electrónicos -->
+            <div class="categoria">
+                <h2>⚡ Electrónicos</h2>
+
+                <div class="lista-productos">
+
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'USB',
+                    '$5',
+                    'Memoria de 64GB de alta velocidad.'
+                    )">
+                        USB
+                    </button>
+
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'Chip Celular',
+                    '$3',
+                    'Conectividad 4G/5G con saldo inicial.'
+                    )">
+                        Chip Celular
+                    </button>
+
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'Cargador',
+                    '$10',
+                    'Carga rápida de 20W tipo C.'
+                    )">
+                        Cargador Celular
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- Doméstico -->
+            <div class="categoria">
+                <h2>🏠 Doméstico</h2>
+
+                <div class="lista-productos">
+
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'Cocina Portátil',
+                    '$25',
+                    'Ideal para camping, funciona con gas butano.'
+                    )">
+                        Cocina Portátil
+                    </button>
+
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'Cuchillos',
+                    '$8',
+                    'Set de 3 cuchillos de acero inoxidable.'
+                    )">
+                        Cuchillos
+                    </button>
+
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'Encendedor',
+                    '$2',
+                    'Recargable y resistente al viento.'
+                    )">
+                        Encendedor
+                    </button>
+
+                    <!-- Producto extra -->
+                    <button class="btn-producto"
+                    onclick="mostrarDetalle(
+                    'Sartén Antiadherente',
+                    '$15',
+                    'Ideal para cocina sin aceite.'
+                    )">
+                        Sartén Antiadherente
+                    </button>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Panel lateral -->
+        <aside class="panel-info">
+
+            <h3>Información del Producto</h3>
+
+            <div id="vista-previa">
+                <p>
+                    Haz clic en cualquier producto para ver sus detalles aquí.
+                </p>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
