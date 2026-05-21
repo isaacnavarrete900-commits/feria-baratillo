@@ -12,9 +12,9 @@ let velocidad = 3;
 
 ### Observaciones
 
-- El texto se mueve más rápido en el canvas.
-- El rebote ocurre con mayor velocidad.
-- La animación se ve más dinámica.
+- El texto se movió mucho más rápido.
+- En algunos momentos parecía desaparecer parcialmente del canvas debido a la velocidad del desplazamiento.
+- El rebote ocurrió más bruscamente.
 
 ### Prueba adicional
 
@@ -23,8 +23,9 @@ También se probó:
 let velocidad = 0.5;
 
 Resultado:
-- El movimiento fue más lento y suave.
-- El texto tardaba más en recorrer el canvas.
+- El movimiento fue extremadamente lento.
+- Por momentos parecía que el texto estaba detenido.
+- El desplazamiento fue más suave.
 
 ---
 

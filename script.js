@@ -18,7 +18,7 @@ function animarLogo(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Fondo del letrero
-    ctx.fillStyle = '#2e1065';
+    ctx.fillStyle = '#22c55e';
     ctx.fillRect(10, 10, 380, 60);
 
     // Marco decorativo
